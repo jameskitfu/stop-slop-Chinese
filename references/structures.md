@@ -1,134 +1,119 @@
-# Structures to Avoid
+# 中文 AI 文常见结构问题
 
-## Binary Contrasts
+## 二元反转
 
-These create false drama. State the point directly.
+模型喜欢先否定一个说法，再抛出另一个说法，制造假深刻。
 
-| Pattern | Problem |
-|---------|---------|
-| "Not because X. Because Y." / "Not because X, but because Y." | Telegraphed reversal |
-| "[X] isn't the problem. [Y] is." | Formulaic reframe |
-| "The answer isn't X. It's Y." | Predictable pivot |
-| "It feels like X. It's actually Y." | Setup/reveal cliche |
-| "The question isn't X. It's Y." | Rhetorical misdirection |
-| "Not X. But Y." / "not X, it's Y" / "isn't X, it's Y" | Mechanical contrast |
-| "It's not this. It's that." | Same formula, different words |
-| "stops being X and starts being Y" | False transformation arc |
-| "doesn't mean X, but actually Y" | Negation-then-assertion crutch |
-| "is about X but not Y" | False distinction |
-| "not just X but also Y" | Additive hedge |
+| 模板 | 问题 |
+|------|------|
+| 「不是 A，而是 B」 | 转折太机械 |
+| 「与其说 A，不如说 B」 | 像评论区金句 |
+| 「表面上是 A，本质上是 B」 | 用「本质」遮住证据 |
+| 「问题不在 A，而在 B」 | 先绕路再说重点 |
+| 「答案不是 A，而是 B」 | 预测感太强 |
+| 「这不仅是 A，更是 B」 | 强行拔高 |
+| 「A 只是表象，B 才是核心」 | 空泛分层 |
 
-**Instead:** State Y directly. "The problem is Y." "Y matters here." Drop the negation entirely.
+**改法：**直接写 B。如果需要对比，用具体事实对比，不用模板对比。
 
-## Negative Listing
+## 三段式报告腔
 
-Listing what something is *not* before revealing what it *is*. A rhetorical striptease.
+不是所有文本都需要「首先、其次、最后」。中文读者会把它读成公文、汇报或模型答案。
 
-| Pattern | Problem |
-|---------|---------|
-| "Not a X... Not a Y... A Z." | Dramatic buildup through negation |
-| "It wasn't X. It wasn't Y. It was Z." | Same structure, past tense |
+| 模板 | 问题 |
+|------|------|
+| 「首先，其次，最后」 | 机械分点 |
+| 「一方面，另一方面」 | 对称过强 |
+| 「从 X、Y、Z 三个维度」 | 先搭框架，再填空话 |
+| 「对内，对外」 | 过度归类 |
+| 「短期看，长期看」 | 常见但容易空泛 |
+| 「过去、现在、未来」 | 时间轴套话 |
 
-**Instead:** State Z. The reader doesn't need the runway.
+**改法：**按读者要做的事排序。教程可以分步骤，观点文优先用问题推进。
 
-## Dramatic Fragmentation
+## 排比和四字格堆叠
 
-Sentence fragments for emphasis read as manufactured profundity.
+中文 AI 文常把句子写得像发布会口号。
 
-| Pattern | Problem |
-|---------|---------|
-| "[Noun]. That's it. That's the [thing]." | Performative simplicity |
-| "X. And Y. And Z." | Staccato drama |
-| "This unlocks something. [Word]." | Artificial revelation |
+| 模板 | 问题 |
+|------|------|
+| 「提质增效、降本增收、协同共赢」 | 口号多，动作少 |
+| 「机制完善、流程优化、能力提升」 | 抽象名词堆叠 |
+| 「可感知、可衡量、可持续」 | 好听但不落地 |
+| 「从 0 到 1、从 1 到 N」 | 创业套话 |
+| 「全链路、全场景、全周期」 | 范围虚大 |
 
-**Instead:** Complete sentences. Trust content over presentation.
+**改法：**最多保留一个概括词，然后补一个具体例子。
 
-## Rhetorical Setups
+## 设问式开头
 
-These announce insight rather than deliver it.
+设问可以用，但连续设问会显得像营销号。
 
-| Pattern | Problem |
-|---------|---------|
-| "What if [reframe]?" | Socratic posturing |
-| "Here's what I mean:" | Redundant preview |
-| "Think about it:" | Condescending prompt |
-| "And that's okay." | Unnecessary permission |
+| 模板 | 问题 |
+|------|------|
+| 「你有没有想过？」 | 强行拉近距离 |
+| 「为什么 X 越来越重要？」 | 公众号开头 |
+| 「答案是什么？」 | 明知故问 |
+| 「我们该如何理解？」 | 把简单问题复杂化 |
+| 「这到底意味着什么？」 | 拖延正文 |
 
-**Instead:** Make the point. Let readers draw conclusions.
+**改法：**把问题改成陈述句，或直接进入场景。
 
-## Formulaic Constructions
+## 抽象名词假装行动
 
-| Pattern | Problem |
-|---------|---------|
-| "By the time X, I was Y." | Narrative template |
-| "X that isn't Y" | Indirect. Say "X is broken" |
+「数据」「方案」「机制」「系统」不会自己行动。人或组织才会行动。
 
-## False Agency
+| 模板 | 问题 |
+|------|------|
+| 「数据告诉我们」 | 数据不会说话 |
+| 「方案实现了落地」 | 谁执行了方案？ |
+| 「机制推动了增长」 | 谁设计并执行机制？ |
+| 「能力完成沉淀」 | 谁总结了经验？ |
+| 「价值被释放」 | 谁得到什么好处？ |
+| 「需求被满足」 | 谁满足了谁的需求？ |
+| 「问题得到解决」 | 谁解决了问题？ |
 
-Giving inanimate things human verbs. Complaints don't "become" fixes. Bets don't "live or die." Decisions don't "emerge." A person does something to make those things happen. AI loves this because it avoids naming the actor.
+**改法：**把人、团队、用户或机构放到句首。
 
-| Pattern | Problem |
-|---------|---------|
-| "a complaint becomes a fix" | The complaint did nothing. Someone fixed it. |
-| "a bet lives or dies in days" | Bets don't have lifespans. Someone kills the project or ships it. |
-| "the decision emerges" | Decisions don't emerge. Someone decides. |
-| "the culture shifts" | Cultures don't shift on their own. People change behavior. |
-| "the conversation moves toward" | Conversations don't move. Someone steers. |
-| "the data tells us" | Data sits there. Someone reads it and draws a conclusion. |
-| "the market rewards" | Markets don't reward. Buyers pay for things. |
+## 被动句和无主句
 
-**Instead:** Name the human. "The team fixed it that week" beats "the complaint becomes a fix." If no specific person fits, use "you" to put the reader in the seat.
+中文可以省主语，但过多省主语会让责任消失。
 
-## Narrator-from-a-Distance
+| 模板 | 改法 |
+|------|------|
+| 「问题被解决」 | 「客服当天解决了问题」 |
+| 「流程被优化」 | 「运营把三步流程改成一步」 |
+| 「能力被验证」 | 「三家客户试用后继续付费」 |
+| 「共识被形成」 | 「产品和销售确认了同一套口径」 |
+| 「目标得以实现」 | 「团队按期完成目标」 |
 
-Floating above the scene instead of putting the reader in it.
+**改法：**找出动作的执行者。如果不能写具体名字，就写团队、用户、平台或监管方。
 
-| Pattern | Problem |
-|---------|---------|
-| "Nobody designed this." | Disembodied observation |
-| "This happens because..." | Lecturer voice |
-| "This is why..." | Same |
-| "People tend to..." | Armchair sociologist |
+## 翻译腔
 
-**Instead:** Put the reader in the room. "You don't sit down one day and decide to..." beats "Nobody designed this."
+英文结构直译成中文会显得硬。
 
-## Passive Voice
+| 模板 | 更自然的中文 |
+|------|--------------|
+| 「做出一个决定」 | 「决定」 |
+| 「进行一个讨论」 | 「讨论」 |
+| 「提供一个解决方案」 | 「解决」或「给方案」 |
+| 「产生影响」 | 「影响」 |
+| 「扮演重要角色」 | 「很关键」或直接写作用 |
+| 「基于 X 的视角」 | 「从 X 看」 |
+| 「关于 X 的问题」 | 「X 问题」 |
 
-Every sentence needs a subject doing something. Passive voice hides the actor and drains energy.
+## 结尾升华
 
-| Pattern | Fix |
-|---------|-----|
-| "X was created" | Name who created it |
-| "It is believed that" | Name who believes it |
-| "Mistakes were made" | Name who made them |
-| "The decision was reached" | Name who decided |
+很多中文 AI 文在结尾强行站高。
 
-**Instead:** Find the actor. Put them at the front of the sentence.
+| 模板 | 问题 |
+|------|------|
+| 「未来值得期待」 | 没有信息 |
+| 「这只是开始」 | 空口号 |
+| 「我们拭目以待」 | 逃避判断 |
+| 「这将开启新篇章」 | 通稿腔 |
+| 「最终回到人的价值」 | 强行升华 |
+| 「让我们共同期待」 | 宣传腔 |
 
-## Sentence Starters to Avoid
-
-| Pattern | Fix |
-|---------|-----|
-| Sentences starting with What, When, Where, Which, Who, Why, How | Restructure. Lead with the subject or the verb. |
-| Paragraphs starting with "So" | Start with content |
-| Sentences starting with "Look," | Remove |
-
-Wh- openers become a crutch. "What makes this hard is..." becomes "The constraint is..." or better, name the specific constraint.
-
-## Rhythm Patterns
-
-| Pattern | Fix |
-|---------|-----|
-| Three-item lists | Use two items or one |
-| Questions answered immediately | Let questions breathe or cut them |
-| Every paragraph ends punchily | Vary endings |
-| Em-dashes | Remove. Use commas or periods. No em dashes at all. |
-| Staccato fragmentation | Don't stack short punchy sentences |
-| "Not always. Not perfectly." | Hedging disguised as reassurance |
-
-## Word Patterns
-
-| Pattern | Problem |
-|---------|---------|
-| Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
-| All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
+**改法：**用最后一个事实收尾。没有新事实就停。

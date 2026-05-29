@@ -1,59 +1,61 @@
-# Before/After Examples
+# 中文改写示例
 
-## Example 1: Throat-Clearing + Binary Contrast
+## 示例 1：删开场铺垫
 
-**Before:**
-> "Here's the thing: building products is hard. Not because the technology is complex. Because people are complex. Let that sink in."
+**改前：**
+> 随着人工智能技术的快速发展，越来越多企业开始关注客服自动化这一重要方向。不可否认的是，这一趋势正在深刻改变企业与用户之间的互动方式。
 
-**After:**
-> "Building products is hard. Technology is manageable. People aren't."
+**改后：**
+> 越来越多企业把客服问题先交给机器人处理。用户少排队，客服主管也能把人手留给退款、投诉和大客户问题。
 
-**Changes:** Removed opener, binary contrast structure, and emphasis crutch. Direct statements.
+**改动：**删掉「随着」「不可否认」「深刻改变」，补上用户和客服主管两个具体角色。
 
----
+## 示例 2：拆掉二元反转
 
-## Example 2: Filler + Unnecessary Reassurance
+**改前：**
+> 这不是一次简单的产品升级，而是一次围绕用户体验的系统性重构。
 
-**Before:**
-> "It turns out that most teams struggle with alignment. The uncomfortable truth is that nobody wants to admit they're confused. And that's okay."
+**改后：**
+> 这次改版重做了下单页、支付页和售后入口，用户少点两次就能完成退款申请。
 
-**After:**
-> "Teams struggle with alignment. Nobody admits confusion."
+**改动：**删除「不是 A，而是 B」，把「系统性重构」换成具体页面和动作。
 
-**Changes:** Cut hedging ("most"), removed throat-clearing phrases, deleted permission-granting ending.
+## 示例 3：替换商业黑话
 
----
+**改前：**
+> 通过搭建内容矩阵，我们将进一步赋能品牌增长，形成从种草到转化的全链路闭环。
 
-## Example 3: Business Jargon Stack
+**改后：**
+> 我们会同时运营小红书、抖音和公众号。小红书负责新品试用，抖音负责直播成交，公众号负责老客复购。
 
-**Before:**
-> "In today's fast-paced landscape, we need to lean into discomfort and navigate uncertainty with clarity. This matters because your competition isn't waiting."
+**改动：**把「矩阵」「赋能」「全链路闭环」换成渠道分工。
 
-**After:**
-> "Move faster. Your competition is."
+## 示例 4：处理抽象名词假装行动
 
-**Changes:** Eliminated jargon entirely. Core message in six words.
+**改前：**
+> 数据告诉我们，精细化运营能够有效提升用户留存。
 
----
+**改后：**
+> 运营把 30 天没登录的用户单独分组，给他们发两张优惠券。第二周，这组用户的回访率从 8% 到 13%。
 
-## Example 4: Dramatic Fragmentation
+**改动：**数据不会说话。改成运营做了什么，结果怎样。
 
-**Before:**
-> "Speed. Quality. Cost. You can only pick two. That's it. That's the tradeoff."
+## 示例 5：删除强行共鸣
 
-**After:**
-> "Speed, quality, cost—pick two."
+**改前：**
+> 你是否也曾在深夜感到焦虑？别担心，这很正常。今天我们就来聊聊如何建立一套真正适合自己的成长方法论。
 
-**Changes:** Single sentence. No performative emphasis.
+**改后：**
+> 如果你总在睡前刷招聘软件，先别急着买课。把最近三次让你焦虑的职位要求写下来，圈出重复出现的技能。
 
----
+**改动：**删掉「你是否」「别担心」「方法论」，换成具体场景和下一步动作。
 
-## Example 5: Rhetorical Setup
+## 示例 6：结尾不升华
 
-**Before:**
-> "What if I told you that the best teams don't optimize for productivity? Here's what I mean: they optimize for learning. Think about it."
+**改前：**
+> 总的来说，社区团购仍然面临诸多挑战，但也蕴含着巨大的发展机遇。未来，各方需要持续探索新的增长路径，让我们共同期待这一行业开启新的篇章。
 
-**After:**
-> "The best teams optimize for learning, not productivity."
+**改后：**
+> 社区团购接下来要解决两个问题：低价商品留不住用户，团长佣金降了就不愿意推。平台如果不改这两件事，补贴停了，订单也会跟着掉。
 
-**Changes:** Direct claim. No rhetorical scaffolding.
+**改动：**删掉总结、展望和口号，保留可判断的问题。

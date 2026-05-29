@@ -1,61 +1,71 @@
-# Stop Slop
+# Stop Slop Chinese
 
-A skill for removing AI tells from prose.
+面向中文写作的「去 AI 味」技能。它帮助模型在起草、改写、审稿时删掉中文互联网语境里常见的模板腔、营销腔、翻译腔和空话。
 
 <img width="3840" height="2160" alt="G-Yg4RVbIAAhVxW" src="https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf" />
 
-## What this is
+## 这是什么
 
-AI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.
+中文 AI 文案有自己的痕迹：
 
-## Skill Structure
+- 开头先铺垫「在当今时代」「随着技术发展」
+- 中间用「不仅是 A，更是 B」「不是 X，而是 Y」制造转折
+- 结尾升华到「这背后反映的是」「未来值得期待」
+- 大量使用「赋能」「闭环」「抓手」「底层逻辑」等泛商业词
+- 用整齐排比、四字格和假设问句撑场面
 
-```
-stop-slop/
-├── SKILL.md              # Core instructions
+这个技能把这些痕迹列出来，并给出更适合中文读者的改写规则。
+
+## 目录结构
+
+```text
+stop-slop-Chinese/
+├── SKILL.md              # 核心规则
 ├── references/
-│   ├── phrases.md        # Phrases to remove
-│   ├── structures.md     # Structural patterns to avoid
-│   └── examples.md       # Before/after transformations
+│   ├── phrases.md        # 中文场景需要删除或替换的词句
+│   ├── structures.md     # 中文 AI 文常见结构问题
+│   └── examples.md       # 中文改写示例
 ├── README.md
 └── LICENSE
 ```
 
-## Quick start
+## 快速使用
 
-**Claude Code:** Add this folder as a skill.
+**Claude Code:** 把这个目录加入 skill。
 
-**Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.
+**Claude Projects:** 上传 `SKILL.md` 和 `references/` 里的参考文件。
 
-**Custom instructions:** Copy core rules from `SKILL.md`.
+**自定义指令:** 复制 `SKILL.md` 的核心规则。
 
-**API calls:** Include `SKILL.md` in your system prompt. Reference files load on demand.
+**API 调用:** 把 `SKILL.md` 放进 system prompt，需要时再加载参考文件。
 
-## What it catches
+## 它会检查什么
 
-**Banned phrases** - Throat-clearing openers, emphasis crutches, business jargon, all adverbs, vague declaratives, meta-commentary. See `references/phrases.md`.
+**中文套话**：删掉「值得注意的是」「不可否认」「总的来说」「在某种程度上」「这背后」等提示模型腔的铺垫。见 `references/phrases.md`。
 
-**Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency, narrator-from-a-distance voice, passive voice. See `references/structures.md`.
+**中文商业黑话**：把「赋能」「抓手」「闭环」「颗粒度」「底层逻辑」「生态矩阵」换成可执行的普通话。见 `references/phrases.md`。
 
-**Sentence-level rules** - No Wh- sentence starters, no em dashes, no staccato fragmentation, no lazy extremes, active voice required.
+**结构套路**：避免「不是 A，而是 B」「一方面，另一方面」「首先，其次，最后」「这不仅是 A，更是 B」等模板。见 `references/structures.md`。
 
-## Scoring
+**句子规则**：少用「我们需要认识到」「可以说」「从某种意义上」这类虚弱主语。少用被动句。少用「极大地」「深刻地」「显著地」等程度副词。不要让抽象名词像人一样行动。
 
-Rate 1-10 on each dimension:
+## 评分
 
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+每项 1 到 10 分：
 
-Below 35/50: revise.
+| 维度 | 问题 |
+|------|------|
+| 直接 | 句子在说事，还是在宣布自己要说事？ |
+| 口气 | 像中文作者，还是像翻译过来的白皮书？ |
+| 具体 | 有没有人、动作、数字、场景？ |
+| 节奏 | 句长和段落是否自然变化？ |
+| 密度 | 有没有可删的套话和重复？ |
 
-## Author
+低于 35 分就重写。
 
-[Hardik Pandya](https://hvpandya.com)
+## 作者
+
+原版 Stop Slop 由 [Hardik Pandya](https://hvpandya.com) 创建。本分支改成中文写作场景。
 
 ## License
 
