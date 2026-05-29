@@ -1,128 +1,129 @@
-# Phrases to Remove
+# 中文场景需要删除或替换的词句
 
-## Throat-Clearing Openers
+## 开场铺垫
 
-Remove these announcement phrases. State the content directly.
+这些句子通常只是在拖延正文。删掉后，直接写事实或结论。
 
-- "Here's the thing:"
-- "Here's what [X]"
-- "Here's this [X]"
-- "Here's that [X]"
-- "Here's why [X]"
-- "The uncomfortable truth is"
-- "It turns out"
-- "The real [X] is"
-- "Let me be clear"
-- "The truth is,"
-- "I'll say it again:"
-- "I'm going to be honest"
-- "Can we talk about"
-- "Here's what I find interesting"
-- "Here's the problem though"
+- 「在当今时代」
+- 「随着 X 的快速发展」
+- 「近年来，X 逐渐成为」
+- 「在数字化浪潮下」
+- 「在这个信息爆炸的时代」
+- 「众所周知」
+- 「不可否认的是」
+- 「值得注意的是」
+- 「可以说」
+- 「从某种意义上说」
+- 「某种程度上」
+- 「毫无疑问」
+- 「显而易见」
+- 「我们不难发现」
+- 「回到问题本身」
 
-Any "here's what/this/that" construction is throat-clearing before the point. Cut it and state the point.
+**改法：**删掉铺垫。把第一句改成具体事实、动作或判断。
 
-## Emphasis Crutches
+## 过度解释和自我提示
 
-These add no meaning. Delete them.
+这些词在提醒读者「我要开始解释了」，但正文应该自己往前走。
 
-- "Full stop." / "Period."
-- "Let that sink in."
-- "This matters because"
-- "Make no mistake"
-- "Here's why that matters"
+- 「换句话说」
+- 「也就是说」
+- 「简单来说」
+- 「更准确地说」
+- 「具体而言」
+- 「这意味着」
+- 「这背后反映的是」
+- 「核心在于」
+- 「本质上」
+- 「归根结底」
+- 「说到底」
+- 「由此可见」
+- 「综上所述」
+- 「总的来说」
+- 「最后但同样重要的是」
 
-## Business Jargon
+**改法：**如果后一句有新信息，直接写后一句。如果只是总结，删掉。
 
-Replace with plain language.
+## 中文商业黑话
 
-| Avoid | Use instead |
-|-------|-------------|
-| Navigate (challenges) | Handle, address |
-| Unpack (analysis) | Explain, examine |
-| Lean into | Accept, embrace |
-| Landscape (context) | Situation, field |
-| Game-changer | Significant, important |
-| Double down | Commit, increase |
-| Deep dive | Analysis, examination |
-| Take a step back | Reconsider |
-| Moving forward | Next, from now |
-| Circle back | Return to, revisit |
-| On the same page | Aligned, agreed |
+把这些词换成读者能执行、能验证的动作。
 
-## Adverbs
+| 避免 | 可替换为 |
+|------|----------|
+| 赋能 | 帮、让、提供、支持 |
+| 抓手 | 方法、入口、工具、负责人 |
+| 闭环 | 做完、跟进到底、验收 |
+| 底层逻辑 | 原因、规则、机制 |
+| 颗粒度 | 细节、范围、拆分方式 |
+| 生态 | 合作方、产品线、市场 |
+| 矩阵 | 一组账号、一组产品、一组渠道 |
+| 打通 | 连接、合并、共享 |
+| 沉淀 | 保存、整理、形成 |
+| 拉齐 | 对齐、确认一致 |
+| 对标 | 参考、比较 |
+| 复用 | 再用、共享 |
+| 提效 | 省时间、少花人力 |
+| 降本增效 | 少花钱、少用人、做得更快 |
+| 价值释放 | 用户用了、收入增加、成本下降 |
+| 场景化 | 针对某类用户或任务 |
+| 精细化运营 | 分人群运营、按数据调整 |
+| 私域 | 自有用户渠道、微信群、会员体系 |
+| 心智 | 印象、记忆点、购买理由 |
+| 方法论 | 方法、步骤、经验 |
 
-Kill all adverbs. No -ly words. No softeners, no intensifiers, no hedges.
+## 程度副词和空泛加强
 
-Specific offenders:
+删除不能带来信息的程度词。
 
-- "really"
-- "just"
-- "literally"
-- "genuinely"
-- "honestly"
-- "simply"
-- "actually"
-- "deeply"
-- "truly"
-- "fundamentally"
-- "inherently"
-- "inevitably"
-- "interestingly"
-- "importantly"
-- "crucially"
+- 「非常」
+- 「特别」
+- 「极其」
+- 「显著」
+- 「大幅」
+- 「深刻」
+- 「充分」
+- 「全面」
+- 「持续」
+- 「不断」
+- 「有效」
+- 「有力」
+- 「扎实」
+- 「切实」
+- 「高度」
+- 「真正」
+- 「本质」
 
-Also cut these filler phrases:
+**改法：**用数字、时间、对比或例子替代。「大幅提升」改成「从 12 分钟降到 7 分钟」。没有证据就删。
 
-- "At its core"
-- "In today's [X]"
-- "It's worth noting"
-- "At the end of the day"
-- "When it comes to"
-- "In a world where"
-- "The reality is"
+## 假装亲近和强行共鸣
 
-## Meta-Commentary
+中文 AI 文经常用这些句子装作懂读者。
 
-Remove self-referential asides. The essay should move, not announce its own structure.
+- 「你是否也曾」
+- 「相信很多人都有这样的感受」
+- 「我们每个人都可能遇到」
+- 「这并不奇怪」
+- 「这很正常」
+- 「别担心」
+- 「答案或许出乎意料」
+- 「今天我们就来聊聊」
+- 「看完你就懂了」
 
-- "Hint:"
-- "Plot twist:" / "Spoiler:"
-- "You already know this, but"
-- "But that's another post"
-- "X is a feature, not a bug"
-- "Dressed up as"
-- "The rest of this essay explains..."
-- "Let me walk you through..."
-- "In this section, we'll..."
-- "As we'll see..."
-- "I want to explore..."
+**改法：**不要替读者感受。直接写场景或问题。
 
-## Performative Emphasis
+## 空泛判断
 
-False intimacy or manufactured sincerity:
+这些句子看似有观点，实际没有信息。
 
-- "creeps in"
-- "I promise"
-- "They exist, I promise"
+- 「这是一件很重要的事」
+- 「这带来了深远影响」
+- 「意义重大」
+- 「挑战与机遇并存」
+- 「未来可期」
+- 「值得期待」
+- 「有待进一步观察」
+- 「还有很长的路要走」
+- 「需要引起重视」
+- 「这是时代发展的必然结果」
 
-## Telling Instead of Showing
-
-Announcing difficulty or significance rather than demonstrating it:
-
-- "This is genuinely hard"
-- "This is what leadership actually looks like"
-- "This is what X actually looks like"
-- "actually matters"
-
-## Vague Declaratives
-
-Sentences that announce importance without naming the specific thing. Kill these.
-
-- "The reasons are structural"
-- "The implications are significant"
-- "This is the deepest problem"
-- "The stakes are high"
-- "The consequences are real"
-
-If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
+**改法：**写清楚影响谁、影响什么、什么时候发生、代价是什么。

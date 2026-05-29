@@ -1,67 +1,65 @@
 ---
-name: stop-slop
-description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
+name: stop-slop-chinese
+description: 去掉中文写作里的 AI 味、模板腔、营销腔和翻译腔。适用于中文起草、改写、润色和审稿。
 metadata:
-  trigger: Writing prose, editing drafts, reviewing content for AI patterns
-  author: Hardik Pandya (https://hvpandya.com)
+  trigger: 中文写作、中文改稿、中文文案审查、去 AI 味
+  author: Hardik Pandya (https://hvpandya.com), Chinese adaptation
 ---
 
-# Stop Slop
+# Stop Slop Chinese
 
-Eliminate predictable AI writing patterns from prose.
+让中文稿件像真人写的，而不是像模型按模板拼出来的。
 
-## Core Rules
+## 核心规则
 
-1. **Cut filler phrases.** Remove throat-clearing openers, emphasis crutches, and all adverbs. See [references/phrases.md](references/phrases.md).
+1. **删开场铺垫。** 不要用「在当今时代」「随着 X 的发展」「值得注意的是」「不可否认」起头。直接说发生了什么、谁做了什么、读者该怎么做。见 [references/phrases.md](references/phrases.md)。
 
-2. **Break formulaic structures.** Avoid binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency. See [references/structures.md](references/structures.md).
+2. **删中文商业黑话。** 「赋能」「抓手」「闭环」「底层逻辑」「生态矩阵」「颗粒度」这类词只有在它们有明确业务定义时才保留。否则换成普通动词。见 [references/phrases.md](references/phrases.md)。
 
-3. **Use active voice.** Every sentence needs a human subject doing something. No passive constructions. No inanimate objects performing human actions ("the complaint becomes a fix").
+3. **拆掉模板结构。** 少用「不是 A，而是 B」「不仅是 A，更是 B」「一方面，另一方面」「首先，其次，最后」。这些结构会让文章像申论、发布会通稿或模型回答。见 [references/structures.md](references/structures.md)。
 
-4. **Be specific.** No vague declaratives ("The reasons are structural"). Name the specific thing. No lazy extremes ("every," "always," "never") doing vague work.
+4. **让人做动作。** 每句话尽量有具体的人、团队、用户或机构做事。不要写「方案落地」「能力沉淀」「价值释放」「问题被解决」。写谁落地、谁沉淀、谁释放、谁解决。
 
-5. **Put the reader in the room.** No narrator-from-a-distance voice. "You" beats "People." Specifics beat abstractions.
+5. **把抽象词换成画面。** 「体验提升」「效率优化」「认知升级」「生态完善」不够。写页面少点了几次、审核少等几分钟、客服少转几轮。
 
-6. **Vary rhythm.** Mix sentence lengths. Two items beat three. End paragraphs differently. No em dashes.
+6. **按中文口语调整节奏。** 长短句混用。能两项说完就别列三项。少用整齐排比。不要为了显得有气势堆四字格。
 
-7. **Trust readers.** State facts directly. Skip softening, justification, hand-holding.
+7. **减少程度副词。** 删除「非常」「极大」「显著」「深刻」「充分」「持续」「不断」「全面」等空泛加强。需要强调时给数字、时间、对比或例子。
 
-8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
+8. **结尾不要硬升华。** 不要用「这背后反映的是」「未来值得期待」「这将开启新篇章」。如果没有新信息，直接停。
 
-## Quick Checks
+## 快速检查
 
-Before delivering prose:
+交付中文稿件前逐条检查：
 
-- Any adverbs? Kill them.
-- Any passive voice? Find the actor, make them the subject.
-- Inanimate thing doing a human verb ("the decision emerges")? Name the person.
-- Sentence starts with a Wh- word? Restructure it.
-- Any "here's what/this/that" throat-clearing? Cut to the point.
-- Any "not X, it's Y" contrasts? State Y directly.
-- Three consecutive sentences match length? Break one.
-- Paragraph ends with punchy one-liner? Vary it.
-- Em-dash anywhere? Remove it.
-- Vague declarative ("The implications are significant")? Name the specific implication.
-- Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
-- Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
+- 开头有没有「在当今」「随着」「近年来」「众所周知」？删掉。
+- 有没有「值得注意的是」「不可否认」「可以说」「从某种意义上」？删掉。
+- 有没有「赋能」「抓手」「闭环」「矩阵」「生态」「底层逻辑」？换成具体动作。
+- 有没有「不是 A，而是 B」「不仅是 A，更是 B」？直接写 B。
+- 有没有「首先，其次，最后」？如果不是教程或报告，重排为自然段落。
+- 有没有抽象名词做主语，比如「方案实现了」「数据说明了」「机制推动了」？换成人或机构做主语。
+- 有没有被动句，比如「问题被解决」「能力被验证」？写谁解决、谁验证。
+- 有没有三连排比或四字格堆叠？删到一两处。
+- 有没有「非常、显著、持续、全面、深度」等程度词？用事实替代。
+- 结尾有没有口号、升华或展望？没有信息就删。
 
-## Scoring
+## 评分
 
-Rate 1-10 on each dimension:
+每项 1 到 10 分：
 
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+| 维度 | 问题 |
+|------|------|
+| 直接 | 句子在说事实，还是在铺垫观点？ |
+| 口气 | 像中文作者，还是像翻译腔报告？ |
+| 具体 | 有没有人、动作、数字、场景？ |
+| 节奏 | 长短句是否自然，段落是否有变化？ |
+| 密度 | 有没有可删的套话、重复和空泛词？ |
 
-Below 35/50: revise.
+低于 35 分就重写。
 
-## Examples
+## 示例
 
-See [references/examples.md](references/examples.md) for before/after transformations.
+见 [references/examples.md](references/examples.md)。
 
 ## License
 

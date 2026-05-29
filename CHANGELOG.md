@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-05-29
+
+### Changed
+
+- Adapted the skill for Chinese writing contexts.
+- Replaced English AI-writing tells with Chinese phrases, structures, jargon, and examples.
+- Updated README and skill metadata for the `stop-slop-chinese` scenario.
+
 ## 2026-01-13
 
 ### Added
